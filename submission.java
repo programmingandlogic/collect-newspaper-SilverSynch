@@ -12,7 +12,6 @@ import stanford.karel.*;
 
 public class CollectNewspaperKarel extends SuperKarel 
 {
-	// You fill in this part
 	public void run () 
 	{
 		move ();
@@ -23,6 +22,7 @@ public class CollectNewspaperKarel extends SuperKarel
 		move ();
 	}
 	
+	// corner() abstracts the movements used to move from the inside of the house to the outside
 	private void corner ()
 	{
 		move ();
